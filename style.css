@@ -1,0 +1,151 @@
+.calcolatrice {
+  width: 230px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "totale totale totale totale"
+    "addizione sottrazione moltiplicazione divisione"
+    "sette otto nove uguale"
+    "quattro cinque sei uguale"
+    "uno due tre uguale"
+    "zero punto AC uguale";
+  background-color: rgb(59, 59, 59);
+  border-radius: 20px;
+  gap: 2px;
+  border: 10px;
+  font-size: 22px;
+}
+
+#totale {
+  grid-area: totale;
+  text-align: right;
+  background-color: rgb(66, 64, 64);
+  color: white;
+  padding: 7px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#addizione {
+  grid-area: addizione;
+  text-align: center;
+  padding: 5px;
+  background-color: gray;
+}
+
+#sottrazione {
+  grid-area: sottrazione;
+  text-align: center;
+  padding: 5px;
+  background-color: gray;
+}
+
+#moltiplicazione {
+  grid-area: moltiplicazione;
+  text-align: center;
+  padding: 5px;
+  background-color: gray;
+}
+
+#divisione {
+  grid-area: divisione;
+  text-align: center;
+  padding: 5px;
+  background-color: gray;
+}
+
+#sette {
+  grid-area: sette;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#otto {
+  grid-area: otto;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#nove {
+  grid-area: nove;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#quattro {
+  grid-area: quattro;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#cinque {
+  grid-area: cinque;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#sei {
+  grid-area: sei;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#uno {
+  grid-area: uno;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#due {
+  grid-area: due;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#tre {
+  grid-area: tre;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#zero {
+  grid-area: zero;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+  border-bottom-left-radius: 10px;
+
+}
+
+#punto {
+  grid-area: punto;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#ac {
+  grid-area: AC;
+  text-align: center;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#uguale {
+  display: flex;
+  grid-area: uguale;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  background-color: lightcoral;
+}
